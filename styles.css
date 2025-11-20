@@ -7,6 +7,44 @@
   --bg-light: #f4f7fb;
   --card-bg: #ffffff;
   --hero-gradient: linear-gradient(135deg, #052c72 0%, #0a59c6 60%, #0d83d6 100%);
+/* Tema default (light mode) */
+body {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* DARK MODE AKTIF */
+.dark-mode {
+  background: #0c0c0c;
+  color: #ffffff;
+}
+
+.dark-mode .top-bar,
+.dark-mode .hero,
+.dark-mode .about,
+.dark-mode .services,
+.dark-mode .clients,
+.dark-mode .contact,
+.dark-mode .site-footer {
+  background-color: #0b0f17 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode p,
+.dark-mode li,
+.dark-mode .brand-name,
+.dark-mode .brand-tagline {
+  color: #ffffff !important;
+}
+
+/* icon bulan berubah jadi matahari */
+.dark-mode .toggle-icon {
+  content: "☀️";
+}
+
 }
 
 *,
